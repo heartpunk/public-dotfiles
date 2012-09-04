@@ -1,0 +1,28 @@
+[user]
+	name = Ezekiel Smithburg
+	email = esmithburg@marchex.com
+[color]
+    diff = true
+    branch = true
+    grep = true
+[core]
+	excludesfile = /home/esmithburg/.gitignore_global
+[push]
+	default = current
+[pull]
+	default = current
+[alias]
+    st = status
+    co = checkout
+    ci = commit -m
+    br = branch
+    df = diff
+    cdf = diff --cached
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+    ll = log --graph --decorate --pretty=oneline --abbrev-commit
+    lla = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    ls = ls-files
+    pick = add -p
+    bl = blame
+    sync = !git pull&&git push
+    cis = !git commit&&git pull&&git push
