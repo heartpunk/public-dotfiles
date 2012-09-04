@@ -11,7 +11,8 @@ export PS1="%m:%d| "
 
 alias g="git"
 alias zrc="vim ~/.zshrc&&resource"
-alias ls="ls --color"
+alias zprc="vim ~/public-dotfiles/.zshrc&&resource"
+alias ls="ls -G"
 
 function color () {
     sed "s/\($1\)/`echo -e '\033[41m\033[37m'`\1`echo -e '\033[0m'`/g"
