@@ -18,7 +18,7 @@
     br = branch
     df = diff
     cdf = diff --cached
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
     ll = log --graph --decorate --pretty=oneline --abbrev-commit
     lla = log --graph --decorate --pretty=oneline --abbrev-commit --all
     ls = ls-files
