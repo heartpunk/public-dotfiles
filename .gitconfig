@@ -1,16 +1,16 @@
 [user]
-	name = Ezekiel Smithburg
-	email = esmithburg@marchex.com
+    name = Ezekiel Smithburg
+    email = esmithburg@marchex.com
 [color]
     diff = true
     branch = true
     grep = true
 [core]
-	excludesfile = /home/esmithburg/.gitignore_global
+    excludesfile = /home/esmithburg/.gitignore_global
 [push]
-	default = current
+    default = current
 [pull]
-	default = current
+    default = current
 [alias]
     st = status
     co = checkout
