@@ -5,3 +5,4 @@ function make_link () {
 }
 
 make_link .gitconfig
+make_link .gitignore_global
