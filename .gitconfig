@@ -1,12 +1,11 @@
 [user]
     name = Ezekiel Smithburg
-    email = esmithburg@marchex.com
+[core]
+    excludesfile = ~/public-dotfiles/.gitignore_global
 [color]
     diff = true
     branch = true
     grep = true
-[core]
-    excludesfile = /home/esmithburg/.gitignore_global
 [push]
     default = current
 [pull]
