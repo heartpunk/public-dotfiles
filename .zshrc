@@ -26,6 +26,6 @@ function resource () {
   source ~/.zshrc
 }
 
-make_file () { mkdir -p ${1%/*} && touch ${1##*/}; }
+make_file () { mkdir -p ${1%/*} && touch $1; }
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
